@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const UserData = require('../models/Users');
+const UserData = require('../models/UserData');
 const { authenticateToken, authorizeRole } = require('../middleware/auth');
 
 // Get user-specific data
